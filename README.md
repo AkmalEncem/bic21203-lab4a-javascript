@@ -9,13 +9,13 @@
 
 ## About
 
-This lab uses HTML5 and plain JavaScript (no external libraries) to update page content, validate user input and generate HTML elements dynamically. Event handling is done with `addEventListener()`, and all text is inserted with `textContent` (no `innerHTML`).
+This lab have three pages, all writen in plain HTML5 and JavaScript with no external libraries to update page content, validate user input and generate HTML elements dynamically. Event handling is done with `addEventListener()`, and all text is inserted with `textContent` (no `innerHTML`).
 
 ## Project Structure
 
 | File | Description |
 | --- | --- |
-| `index.html` | Home page with links to Q1, Q2 and Q3 |
+| `index.html` | Home page that links to Q1, Q2 and Q3 |
 | `q1.html` | Question 1: Interactive Text Changer |
 | `q2.html` | Question 2: Smart Number Validator |
 | `q3.html` | Question 3: Dynamic Number Generator |
@@ -25,7 +25,7 @@ Every question page has a Back button that returns to `index.html`.
 
 ## How to Run
 
-Open the live demo link above, or download the repository and open `index.html` in a desktop browser. Then choose a question from the home page.
+Open the live demo link above, or download this repository and open `index.html` in a desktop browser. Then choose a question from the home page.
 
 ### Q1: Interactive Text Changer
 1. Open `q1.html`. The message "Welcome to my website!" is shown.
