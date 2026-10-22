@@ -54,16 +54,16 @@ The `generateNumbers()` function uses a `for` loop with `document.createElement(
 ## Screenshots
 
 ### Q1
-![Q1 on page load](screenshots/q1-load.png)
+![Q1 on page load](q1-load.png)
 ![Q1 after clicking the button](screenshots/q1-clicked.png)
 
 ### Q2
-![Q2 input 5](screenshots/q2-5.png)
-![Q2 input 10](screenshots/q2-10.png)
-![Q2 input 15](screenshots/q2-15.png)
-![Q2 input abc](screenshots/q2-abc.png)
-![Q2 empty input](screenshots/q2-empty.png)
+![Q2 input 5](q2-5.png)
+![Q2 input 10](q2-10.png)
+![Q2 input 15](q2-15.png)
+![Q2 input abc](q2-abc.png)
+![Q2 empty input](q2-empty.png)
 
 ### Q3
-![Q3 after the first click](screenshots/q3-first.png)
-![Q3 after repeated clicks](screenshots/q3-repeat.png)
+![Q3 after the first click](q3-first.png)
+![Q3 after repeated clicks](q3-repeat.png)
