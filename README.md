@@ -55,7 +55,7 @@ The `generateNumbers()` function uses a `for` loop with `document.createElement(
 
 ### Q1
 ![Q1 on page load](q1-load.png)
-![Q1 after clicking the button](screenshots/q1-clicked.png)
+![Q1 after clicking the button](q1-clicked.png)
 
 ### Q2
 ![Q2 input 5](q2-5.png)
