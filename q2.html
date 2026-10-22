@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question 2 | Smart Number Validator</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f4;
+    }
+    main {
+      width: 100%;
+      max-width: 480px;
+      margin: 40px 16px;
+      padding: 24px;
+      box-sizing: border-box;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.1);
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 0;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+    input {
+      padding: 8px;
+      margin: 0 3px;
+    }
+    button {
+      padding: 8px 14px;
+      margin: 0 3px;
+      cursor: pointer;
+    }
+    #result {
+      color: red;
+      font-weight: bold;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 14px;
+      border: 1px solid #767676;
+      border-radius: 3px;
+      background: #efefef;
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Smart Number Validator</h2>
+
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput" placeholder="Enter a number">
+    <button id="checkBtn" type="button">Check</button>
+    <p id="result" role="status" aria-live="polite"></p>
+    <a class="back-btn" href="index.html">&larr; Back</a>
+  </main>
+  <script>
+    function checkInput() {
+      const value = document.getElementById("userInput").value.trim();
+      const result = document.getElementById("result");
+      const number = Number(value);
+
+      if (value === "" || !Number.isFinite(number)) {
+        result.textContent = "Please enter a valid number!";
+      } else if (number < 10) {
+        result.textContent = "The number is lower than 10";
+      } else if (number > 10) {
+        result.textContent = "The number is higher than 10";
+      } else {
+        result.textContent = "The number is equal to 10";
+      }
+    }
+
+    document.getElementById("checkBtn").addEventListener("click", checkInput);
+  </script>
+</body>
+</html>
